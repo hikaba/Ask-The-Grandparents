@@ -1,0 +1,154 @@
+* {box-sizing: border-box;}
+
+body {
+  font-family: Arial, sans-serif;
+  color: DodgerBlue;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f3f3f3
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: DodgerBlue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: DodgerBlue;
+}
+
+.topnav a.active {
+  color: white;
+  background-color: DodgerBlue;
+  
+}
+
+.topnav .searchbar {
+  float: left;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 6px;
+  margin-left: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .searchbar button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: #f3f3f3;
+  font-size: 17px;
+  border: 1px solid #e7e7e7;
+  cursor: pointer;
+  color: DodgerBlue;
+}
+
+.topnav .searchbar button:hover {
+  background-color: #ddd;
+  color: DodgerBlue;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .searchbar {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .searchbar button {
+    float: none;
+    display: block;
+    text-align: right;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+  
+/*   user posts and profile page styling */
+  ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				border: 1px solid #e7e7e7;
+				background-color: #f3f3f3;
+			}
+
+			li {
+				float: right;
+			}
+
+			li a {
+				display: block;
+				color: DodgerBlue;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			li a:hover:not(.active) {
+				background-color: #ddd;
+			}
+
+			li a.active {
+				color: white;
+				background-color: DodgerBlue;
+			}
+			
+			.content {
+				border: 5px groove DodgerBlue;
+				margin: auto;
+				padding: 25px;
+				width: 90%;
+				margin-top: 25px;
+				font-family: Arial, sans-serif;
+				font-style: italic;
+				color: DodgerBlue;
+			}
+			.new-post {
+				border: 5px groove DodgerBlue;
+				margin: auto;
+				padding: 25px;
+				width: 90%;
+				margin-top: 25px;
+				font-family: Arial, sans-serif;
+				font-style: italic;
+				color: DodgerBlue;
+			}
+			#user-post {
+				width: 100%;
+
+			}
+			fieldset {
+				border-color: white;
+				width: 100%;
+				padding: 0px;
+				border: 0px;
+				margin: 0px;
+			}
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}	
+	
